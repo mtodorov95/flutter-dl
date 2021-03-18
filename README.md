@@ -11,4 +11,5 @@ Installation:
 
 TO-DO:
     - add direct download link
+    - make this readme better
     - make the whole thing better :)
