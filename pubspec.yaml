@@ -11,8 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.2
   filepicker_windows: ^1.0.0
 
 dev_dependencies:
