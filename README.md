@@ -1,15 +1,24 @@
-flutterdl is a basic Windows UI made with Flutter for the youtube-dl(https://github.com/ytdl-org/youtube-dl) command-line program.
+# flutter-dl
+A simple Windows UI made with Flutter for the [youtube-dl](https://github.com/ytdl-org/youtube-dl) command-line program.
 It works for single videos and playlists, as well as video or audio only (currently only .mp3).
 
-Requirements:
-    - youtube-dl.exe (downloaded and added to PATH)
+## Table of contents
+* [Requirements](#requirements)
+* [Setup](#setup)
+* [Download](#download)
+* [TODO](#todo)
 
-Installation:
-    - clone the repo
-    - flutter run -d windows, or
-    - flutter build windows, to build executable
+## Requirements
+* youtube-dl.exe (downloaded and added to PATH)
+	
+## Setup
+* clone the repo
+* flutter run -d windows, or
+* flutter build windows, to build executable
+	
+## Download
+* https://flutter-dl.mariotodorov.com
 
-TO-DO:
-    - add direct download link
-    - make this readme better
-    - make the whole thing better :)
+## TODO
+* make this readme better
+* make the whole thing better :)
