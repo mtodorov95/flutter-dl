@@ -9,7 +9,8 @@ It works for single videos and playlists, as well as video or audio only (curren
 * [TODO](#todo)
 
 ## Requirements
-* youtube-dl.exe (downloaded and added to PATH)
+* [youtube-dl.exe](https://github.com/ytdl-org/youtube-dl#installation) (downloaded and added to PATH)
+* [ffmpeg.exe](https://www.ffmpeg.org) (optional) - used for audio/video [conversion](https://github.com/ytdl-org/youtube-dl#do-i-need-any-other-programs)
 	
 ## Setup
 * clone the repo
