@@ -30,6 +30,7 @@ class _FlutterDlState extends State<FlutterDl> {
     List<String> args = [];
     if (audioOnly) {
       args = [
+        '-i',
         '-x',
         '--audio-format',
         audioFormat,
@@ -38,7 +39,7 @@ class _FlutterDlState extends State<FlutterDl> {
         targetUrl
       ];
     } else {
-      args = ['-f', 'best', '-o', '$dlPath\\%(title)s.%(ext)s', targetUrl];
+      args = ['-i', '-f', 'best', '-o', '$dlPath\\%(title)s.%(ext)s', targetUrl];
     }
     Process.start('youtube-dl', args).then((Process process) async {
       process.exitCode.then((int code) {
